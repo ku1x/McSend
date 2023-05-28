@@ -1,0 +1,38 @@
+.Bar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 700rem;
+    height: 80rem;
+    background-color: rgb(40, 40, 40);  
+    border-radius: 20px;
+    bottom: 30rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 9999;
+}
+
+.TotalPrice{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-left: 50rem;
+    font-weight: bold;
+    font-size: 38rem;
+}
+
+.TotalPrice::before{
+    content: ' $ ';
+    font-size: 26rem;
+}
+
+.PayBtn{
+    border: none;
+    color: #fff;
+    background-color: rgb(222, 155, 30);
+    width: 200rem;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 30rem;
+}
